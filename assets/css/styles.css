@@ -1,5 +1,95 @@
-/* styles.css */
+body {
 
-* {
-	font-family: Arial;
+	background: #E29578;
+	color: #230b34;
+	padding: 80px 100px;
+}
+
+h1, h2, h4, h6, pre {
+	margin: 0;
+}
+
+
+h1 {
+	letter-spacing: 20px;
+	text-shadow: 5px 5px 0 #230b3483;
+	font-size: 80px;
+}
+
+h2 { letter-spacing: 2px; }
+h4 { letter-spacing: 8px; }
+h6 { letter-spacing: 16px; }
+
+p {
+	font-size: 28px;
+	line-height: 1.6;
+	margin-left: 120px;
+}
+
+.blue {
+	font-style: italic;
+	letter-spacing: 6px;
+}
+
+.red {
+	text-decoration: line-through;
+	text-decoration-thickness: 3px;
+}
+
+.subtext {
+	line-height: 2;
+	letter-spacing: 3px;
+	transition: color 0.6s;
+}
+.subtext::first-line {
+	color: #f2ead7;
+	font-size: 26px;
+}
+.subtext:hover {
+	color: #f2ead7;
+}
+
+strong {
+	color: #f2ead7;
+	font-size: 48px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+
+.broken p {
+	margin-left: 0;
+	font-size: 44px;
+	line-height: 1.8;
+	color: #f2ead7;
+}
+
+.broken span {
+	display: inline-block;
+	position: relative;
+}
+
+.d1 { top: 6px;  transform: rotate(3deg); }
+.d2 { top: 14px; transform: rotate(-6deg); color: #E29578; }
+.d3 { top: 26px; transform: rotate(9deg); }
+.d4 { top: 42px; transform: rotate(-14deg); color: #cfa7e3; }
+
+.tilt {
+	transform: rotate(-10deg);
+	color: #E29578;
+}
+
+.gap {
+	margin-left: 35px;
+}
+
+.step1 { margin-left: 0; }
+.step2 { margin-left: 120px; transform: rotate(4deg); }
+.step3 { margin-left: 260px; transform: rotate(-5deg); color: #cfa7e3; }
+
+.whole {
+	font-size: 70px;
+	margin-left: 20px;
+	color: #f2ead7;
+	text-shadow: 15px 15px 0 #eebfaf, 0 0 30px #fb8e6a;
 }
